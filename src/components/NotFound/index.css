@@ -1,0 +1,19 @@
+.not-found-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.not-found-button {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: #fff;
+  background-color: #0284c7;
+  padding: 10px 20px 10px 20px;
+  border: 0px;
+  border-radius: 10px;
+}

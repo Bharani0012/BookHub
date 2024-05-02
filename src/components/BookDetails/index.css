@@ -1,0 +1,86 @@
+.booksDetails-app-container {
+  min-height: 100vh;
+  background-color: #f2f6f7 !important;
+  padding: 10px;
+}
+.books-loader-container-book-details {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.book-details-container {
+  padding: 20px;
+  border-radius: 10px;
+}
+.image-and-details-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.failure-view-container-book-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.coverpic-image {
+  width: 235px;
+  height: 274px;
+  top: 217px;
+  left: 427px;
+  gap: 0px;
+  border-radius: 10px;
+  opacity: 0px;
+}
+.book-title {
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  color: #334155 !important;
+  text-align: left;
+}
+.book-author {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  color: #475569 !important;
+  text-align: left;
+}
+.status-para {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  color: #475569 !important;
+  text-align: left;
+}
+.details-container {
+  margin: 10px;
+  text-align: left;
+}
+.autor-head {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: left;
+  color: #334155 !important;
+}
+.about-author {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  color: #475569 !important;
+}
+
+.dark {
+  background-color: #333436 !important;
+  color: white !important;
+}
+.light {
+  background-color: white;
+  color: #1e293b;
+}

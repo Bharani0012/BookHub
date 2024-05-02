@@ -1,0 +1,149 @@
+.login-app-container {
+  display: flex;
+}
+.login-bg-image-container {
+  background-image: url('https://res.cloudinary.com/dmethdigg/image/upload/v1713771432/Rectangle_1467loginImageDesktop_teerln.png');
+  width: 50vw;
+  background-size: cover;
+}
+
+.login-form-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  background-color: #f2f6f7;
+  padding: 10px;
+}
+.logo {
+  width: 141px;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.input-container > :nth-child(n) {
+  margin: 5px;
+}
+.login-form {
+  background-color: white;
+  padding: 20px;
+  width: 499px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.input-label {
+  font-size: 16px;
+  color: #5a7184;
+  font-family: Inter;
+  font-weight: 600;
+  line-height: 19.36px;
+  text-align: left;
+}
+.input-feild {
+  outline: none;
+  padding: 10px;
+  width: 360px;
+  top: 34px;
+  border-radius: 5px;
+  gap: 0px;
+  opacity: 0px;
+}
+.login-button {
+  all: unset;
+  background-color: #0284c7;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  width: 300px;
+  padding: 10px 30px 10px 30px;
+  border-radius: 10px;
+}
+.error-para {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.94px;
+  text-align: left;
+  color: #ef4444;
+  width: 360px;
+}
+@media screen and (max-width: 768px) and (min-width: 576px) {
+  .login-app-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  .login-bg-image-container {
+    background-image: url('https://res.cloudinary.com/dmethdigg/image/upload/v1713775228/Ellipse_99loginImage-mobile_nqzxzi.png');
+    width: 216px;
+    height: 216px;
+  }
+  .login-form-container {
+    height: 100%;
+    width: 100vw;
+    background-color: transparent;
+    align-items: flex-start;
+  }
+}
+@media screen and (max-width: 575px) {
+  .login-app-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  .login-bg-image-container {
+    background-image: url('https://res.cloudinary.com/dmethdigg/image/upload/v1713775228/Ellipse_99loginImage-mobile_nqzxzi.png');
+    width: 216px;
+    height: 216px;
+    top: 0px;
+    left: 0px;
+    gap: 0px;
+    opacity: 0px;
+  }
+  .login-form-container {
+    height: 100%;
+    width: 100vw;
+    background-color: transparent;
+    align-items: flex-start;
+  }
+  .login-form {
+    background-color: white;
+    padding: 10px;
+    width: 300px;
+    align-items: center;
+  }
+  .input-feild {
+    outline: none;
+    padding: 5px;
+    width: 200px;
+    top: 34px;
+  }
+  .error-para {
+    width: 200px;
+    font-size: 14px;
+  }
+  .input-label {
+    font-size: 14px;
+  }
+  .login-button {
+    all: unset;
+    background-color: #0284c7;
+    color: white;
+    font-weight: 700;
+    font-size: 10px;
+    text-align: center;
+    width: 160px;
+    padding: 5px 15px 5px 15px;
+    border-radius: 10px;
+  }
+  .logo {
+    width: 101px;
+  }
+}
